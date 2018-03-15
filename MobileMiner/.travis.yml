@@ -1,0 +1,13 @@
+language: c
+
+compiler:
+  - gcc
+
+before_script:
+  - ./autogen.sh
+
+script:
+  - ./configure
+  - make
+
+sudo: false
